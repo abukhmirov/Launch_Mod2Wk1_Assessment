@@ -1,13 +1,13 @@
 *** QUESTIONS ***
 
 1. What does it mean to `commit` in a git repository?
-< Your answer here >
+That means to save the changes you made in your program to the git repository (local or remote).
 
 2. When should you create a new branch?  Use examples in your answer!
-< Your answer here >
+When you have made a significant portion of your code and you commit the changes and/or when you experiment with a new function of your code. For example: For the Library program I would make a branch every time I make a new class because it is a new significant portion of code and I am trying to experiment with how it will incorporate into the program and the other classes.
 
 3. In your own words, what is a database?  Use examples to explain.
-< Your answer here >
+A database is a program used to store data and help structure it and turn it into information. For example: the SQL program we have been using, pgAdmin, stores our Library patron and book data in tables and we can structure it to be different tables and columns. We can then structure the data and filter the data by patronID from lowest number to lowest, thus giving us a view on who has been with the library the longest.
 
 4. In a database, how do we create relationships between tables?
-< Your answer here >
+We can use Primary keys and Foreign keys. We can put a Primary key in one column of a table and a foreign key in another table's column that relates to the Primary key. For example: A patronID would be the Primary key in the patron table and a Foreign key in the book table to note which patron has checked out the book.
